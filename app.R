@@ -4,8 +4,7 @@ library(DT)
 library(stringr)
 library(tools)
 library(dplyr)
-test = read.csv('/Users/anqiluo/Desktop/Carnegie Mellon/2021 Spring/Rshiny/HW1-anqiluo/2006_-_2011_NYS_Math_Test_Results_by_Grade_-_Citywide_-_by_Race-Ethnicity.csv')
-#test = read.csv('2006_-_2011_NYS_Math_Test_Results_by_Grade_-_Citywide_-_by_Race-Ethnicity.csv')
+test = read.csv('2006_-_2011_NYS_Math_Test_Results_by_Grade_-_Citywide_-_by_Race-Ethnicity.csv')
 
 ui <- fluidPage(
   downloadButton('downloadData', class = "butt1"),
